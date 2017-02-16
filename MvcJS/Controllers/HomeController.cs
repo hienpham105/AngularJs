@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AngularJSSample.Controllers
+namespace MvcJS.Controllers
 {
     public class HomeController : Controller
     {
@@ -26,9 +26,9 @@ namespace AngularJSSample.Controllers
 
             return View();
         }
-        public ActionResult List()
+        public ActionResult Main()
         {
-           return View();
+            return View();
         }
     }
 }
