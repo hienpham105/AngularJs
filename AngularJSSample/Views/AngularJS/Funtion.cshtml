@@ -1,0 +1,38 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Funtion</title>
+    <script src="~/Content/angular.min.js"></script>
+</head>
+<body ng-app="ungdungdautien">
+    <div ng-controller="ViduController">
+        <h2>Chao mung ban den voi {{xinchao.tieude}} tai Ibebiz.com!</h2>
+    </div>
+    <script>
+         angular.module("ungdungdautien", [])
+         .controller("ViduController", function($scope) {
+            $scope.xinchao = {};
+            $scope.xinchao.tieude = "AngularJS";
+         });
+    </script>
+    <div ng-app="" ng-init="name='HIỀN'">
+        <p>My name is <span ng-bind="name"></span></p>
+    </div>
+    <!--Ví dụ về tính toán trong AngularJS-->
+    <div style="color" ng-app="" ng-init="soluong=2;gia=40;sinhvien={ho:'Trần',ten:'Minh',mssv:1311060556};diemthi=[9,10,8,7,8,0,1]">
+        <p>HỌ TÊN: {{sinhvien.ho+" "+sinhvien.ten}}</p>
+        <p>MSSV:{{sinhvien.mssv}}</p>
+        <p>HỌC PHÍ: {{gia*soluong}}.000vnđ</p>
+        <p>ĐIỂM: {{diemthi[3]}}</p> 
+        <input ng-model="sinhvien.mssv" />   
+        
+    </div>
+</body>
+</html>

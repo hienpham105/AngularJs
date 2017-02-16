@@ -13,5 +13,9 @@ namespace AngularJSSample.Controllers
         {
             return View();
         }
+        public ActionResult Funtion()
+        {
+            return View();
+        }
     }
 }
