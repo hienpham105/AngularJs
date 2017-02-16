@@ -28,6 +28,7 @@ namespace AngularJSSample.Controllers
         }
         public ActionResult List()
         {
+            xcghjb b,
             return View();
         }
     }
