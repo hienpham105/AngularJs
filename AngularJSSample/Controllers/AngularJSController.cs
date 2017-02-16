@@ -31,6 +31,7 @@ namespace AngularJSSample.Controllers
         }
         public ActionResult Direction()
         {
+            //Ham tinh toan, phep toan
             return View();
         }
         public ActionResult Scope()
