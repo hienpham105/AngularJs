@@ -26,8 +26,9 @@ namespace AngularJSSample.Controllers
 
             return View();
         }
-        public ActionResult Index()
+        public ActionResult List()
         {
+            xcghjb b,
             return View();
             Cái này bấm đại
         }
