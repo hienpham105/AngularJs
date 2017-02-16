@@ -33,5 +33,9 @@ namespace AngularJSSample.Controllers
         {
             return View();
         }
+        public ActionResult Scope()
+        {
+            return View();
+        }
     }
 }

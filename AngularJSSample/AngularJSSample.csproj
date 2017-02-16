@@ -281,6 +281,7 @@
     <Content Include="Views\AngularJS\Count.cshtml" />
     <Content Include="Views\AngularJS\Repeat.cshtml" />
     <Content Include="Views\AngularJS\Direction.cshtml" />
+    <Content Include="Views\AngularJS\Scope.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
