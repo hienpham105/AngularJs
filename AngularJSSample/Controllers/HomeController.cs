@@ -29,6 +29,7 @@ namespace AngularJSSample.Controllers
         public ActionResult Index()
         {
             return View();
+            Cái này bấm đại
         }
     }
 }
