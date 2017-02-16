@@ -35,6 +35,7 @@ namespace AngularJSSample.Controllers
         }
         public ActionResult Scope()
         {
+            //phuong thuc scpoe
             return View();
         }
     }
