@@ -26,5 +26,6 @@ namespace AngularJSSample.Controllers
 
             return View();
         }
+
     }
 }
