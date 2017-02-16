@@ -29,7 +29,6 @@ namespace AngularJSSample.Controllers
         public ActionResult List()
         {
             return View();
-            Banch update;
         }
     }
 }
