@@ -213,6 +213,8 @@
     <Content Include="Content\angular.min.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\test\myApp.js" />
+    <Content Include="Content\test\myController.js" />
     <Content Include="ControllerJS\DemoJS.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -275,6 +277,10 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\AngularJS\Index.cshtml" />
     <Content Include="Views\AngularJS\Funtion.cshtml" />
+    <Content Include="Views\AngularJS\Config.cshtml" />
+    <Content Include="Views\AngularJS\Count.cshtml" />
+    <Content Include="Views\AngularJS\Repeat.cshtml" />
+    <Content Include="Views\AngularJS\Direction.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

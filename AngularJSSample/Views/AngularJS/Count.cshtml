@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Count</title>
+    <script src="~/Content/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="height=170;weight=65">
+        height: <input type="number" ng-model="height" /><br />
+        weight: <input type="number" ng-model="weight" /><br />
+        
+        NhanLai: {{height * weight}} 
+    </div>
+</body>
+</html>

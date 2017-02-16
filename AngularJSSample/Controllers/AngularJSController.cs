@@ -17,5 +17,21 @@ namespace AngularJSSample.Controllers
         {
             return View();
         }
+        public ActionResult Config()
+        {
+            return View();
+        }
+        public ActionResult Count()
+        {
+            return View();
+        }
+        public ActionResult Repeat()
+        {
+            return View();
+        }
+        public ActionResult Direction()
+        {
+            return View();
+        }
     }
 }

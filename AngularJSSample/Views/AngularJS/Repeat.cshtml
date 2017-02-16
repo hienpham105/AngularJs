@@ -1,0 +1,30 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Repeat</title>
+    <!--Thu vien Angular jS-->
+    <script src="~/Content/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="" ng-init="names=[
+         {name:'Sanji',country:'Ussop'},
+         {name:'Zoro',country:'Franky'},
+         {name:'Luffy',country:'Book'},
+         {name:'Nami',country:'NicoRobin'},
+         {name:'Chaien',country:'Chopper'}]">
+        <h1 class="col-lg-11">List Name</h1>
+        <ul>
+            <li ng-repeat="x in names">
+                {{ x.name + ', ' + x.country }}
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

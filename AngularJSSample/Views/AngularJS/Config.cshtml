@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Config</title>
+    <script src="~/Content/angular.min.js"></script>
+</head>
+<body>
+    <div ng-app="myApp" ng-controller="myController">
+        FirstName: <input type="text" ng-model="firstName" /><br />
+        LastName: <input type="text" ng-model="lastName" /><br />
+
+        FullName: {{firstName+" "+lastName}}
+    </div>
+    <script src="~/Content/test/myApp.js"></script>
+    <script src="~/Content/test/myController.js"></script>
+</body>
+</html>
