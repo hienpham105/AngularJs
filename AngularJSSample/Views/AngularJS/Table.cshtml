@@ -9,27 +9,27 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Table</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="~/Content/angular.min.js"></script>
 </head>
 <body>
+    <div style="width:830px;">
 
-    <div ng-app="myApp" ng-controller="customersCtrl">
+        <div ng-app="myApp" ng-controller="myCtrl">
 
-        <table>
-            <tr ng-repeat="x in names">
-                <td>{{ x.Name }}</td>
-                <td>{{ x.Country }}</td>
-            </tr>
-        </table>
+            <button ng-click="myFunction()">Click Me!</button>
 
+            <p>{{ count }}</p>
+
+        </div>
+        <script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.count = 0;
+    $scope.myFunction = function() {
+        $scope.count++;
+    }
+});
+        </script> 
     </div>
-
-    <script>
-        var app = angular.module('myApp', []);
-        app.controller('customersCtrl', function ($scope, $http) {
-            $http.get("customers.php")
-            .then(function (response) { $scope.names = response.data.records; });
-        });
-    </script>
 </body>
 </html>
