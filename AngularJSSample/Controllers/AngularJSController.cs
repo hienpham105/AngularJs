@@ -37,5 +37,10 @@ namespace AngularJSSample.Controllers
         {
             return View();
         }
+        public ActionResult Table()
+        {
+            return View();
+        }
+
     }
 }

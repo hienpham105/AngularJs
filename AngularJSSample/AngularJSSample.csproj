@@ -200,6 +200,7 @@
     <Compile Include="Controllers\AngularJSController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\testangularJSController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -282,6 +283,8 @@
     <Content Include="Views\AngularJS\Repeat.cshtml" />
     <Content Include="Views\AngularJS\Direction.cshtml" />
     <Content Include="Views\AngularJS\Scope.cshtml" />
+    <Content Include="Views\testangularJS\Index.cshtml" />
+    <Content Include="Views\AngularJS\Table.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
